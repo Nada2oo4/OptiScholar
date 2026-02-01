@@ -20,7 +20,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # ============================================================================
 
 st.set_page_config(
-    page_title="ScholarMatch - Find Your Perfect Scholarship",
+    page_title="OptiScholar - Find Your Perfect Scholarship",
     page_icon="🎓",
     layout="wide"
 )
