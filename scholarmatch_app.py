@@ -246,16 +246,6 @@ def recommend_scholarships(student, scholarships_df, top_k=10):
     return df.sort_values('final_score', ascending=False).head(top_k)
 
 # ============================================================================
-# PAGE CONFIGURATION
-# ============================================================================
-
-#st.set_page_config(
-    #page_title="ScholarMatch - Find Your Perfect Scholarship",
-    #page_icon="🎓",
-    #layout="wide"
-#)
-
-# ============================================================================
 # DATABASE SETUP
 # ============================================================================
 
@@ -560,6 +550,13 @@ def profile_form_page():
     st.title("📝 Your Profile")
     st.markdown("Help us understand you better to find the perfect scholarships.")
     
+    # Back to home button
+    if st.button("🏠 Back to Home"):
+        st.session_state.page = 'landing'
+        st.rerun()
+    
+    st.markdown("---")
+    
     with st.form("student_profile_form"):
         
         # Personal Info (Optional)
@@ -826,6 +823,12 @@ def results_page():
     # Actions
     col1, col2, col3 = st.columns(3)
     with col1:
+        if st.button("🏠 Back to Home", use_container_width=True):
+            st.session_state.page = 'landing'
+            st.session_state.feedback_submitted = {}
+            st.rerun()
+    
+    with col2:
         if st.button("🔄 New Search", use_container_width=True):
             st.session_state.page = 'profile'
             st.session_state.feedback_submitted = {}
@@ -833,14 +836,14 @@ def results_page():
     
     with col3:
         # Export results as CSV
-        if st.button("📥 Download Results", use_container_width=True):
-            csv = recommendations.to_csv(index=False)
-            st.download_button(
-                label="Download CSV",
-                data=csv,
-                file_name=f"scholarships_{datetime.now().strftime('%Y%m%d')}.csv",
-                mime="text/csv"
-            )
+        csv = recommendations.to_csv(index=False)
+        st.download_button(
+            label="📥 Download Results",
+            data=csv,
+            file_name=f"scholarships_{datetime.now().strftime('%Y%m%d')}.csv",
+            mime="text/csv",
+            use_container_width=True
+        )
 
 # ============================================================================
 # MAIN APP ROUTER
