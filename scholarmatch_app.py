@@ -518,7 +518,7 @@ def analytics_dashboard():
 def landing_page():
     """Landing page with intro and call-to-action"""
     
-    st.title("🎓 ScholarMatch")
+    st.title("🎓 OptiScholar")
     st.subheader("Find scholarships that match YOUR profile")
     
     st.markdown("""
