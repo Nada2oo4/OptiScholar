@@ -1,0 +1,44 @@
+# Virtual environment
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Environment variables
+.env
+.env.*
+!.env.example
+
+# Local database
+*.db
+*.sqlite
+*.sqlite3
+
+# Datasets
+data/
+
+# Large fine-tuned roberta model
+fine_tuned_roberta/
+
+# Dissertation
+Dissertation/
+
+# Archives
+*.zip
+*.tar
+*.gz
+
+# OS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+# Environment variables
+.env
+.env.*
+!.env.example
