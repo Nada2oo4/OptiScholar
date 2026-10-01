@@ -299,7 +299,7 @@ https://drive.google.com/file/d/1lcTkK7eQb8YwGobsg5zStsDUeT6CSw2F/view?usp=share
 AI Engineer | ML Engineer
 
 - GitHub: [github.com/Nada2oo4](https://github.com/Nada2oo4)
-- LinkedIn: _add your LinkedIn URL here_
+- LinkedIn: www.linkedin.com/in/nada-ashraf-zahran
 
 ---
 
