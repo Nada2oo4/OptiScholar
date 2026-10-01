@@ -238,10 +238,7 @@ https://drive.google.com/file/d/1lcTkK7eQb8YwGobsg5zStsDUeT6CSw2F/view?usp=share
 
     
   </tr>
-  <tr>
-    <td align="center"><b>AI Chatbot</b></td>
-    <td align="center"><b>Explainability / SHAP</b></td>
-  </tr>
+
   <tr>
     <img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 46 53 PM" src="https://github.com/user-attachments/assets/e1ac6b7b-d09a-49ea-90d0-a602ca193ace" />
 <img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 47 07 PM" src="https://github.com/user-attachments/assets/4cd1561c-557a-49d5-a701-153f0f82a54e" />
