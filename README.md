@@ -221,7 +221,10 @@ The chatbot helps students ask questions about scholarships and their recommenda
 - **Configuration:** the API key is loaded from the `GROQ_API_KEY` environment variable (via `.env`); no key is stored in the repository
 
 ---
+## Demo
+https://drive.google.com/file/d/1lcTkK7eQb8YwGobsg5zStsDUeT6CSw2F/view?usp=share_link
 
+---
 ## 🖼️ Screenshots
 
 <table>
@@ -230,16 +233,26 @@ The chatbot helps students ask questions about scholarships and their recommenda
     <td align="center"><b>Scholarship Recommendations</b></td>
   </tr>
   <tr>
-    <td><!-- Add screenshot here --></td>
-    <td><!-- Add screenshot here --></td>
+    <img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 45 36 PM" src="https://github.com/user-attachments/assets/c26ffc0d-a4ee-429d-821e-4a91ff0755c3" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 44 40 PM" src="https://github.com/user-attachments/assets/e107045e-0f1b-4ac8-82bc-4e76b359eecb" />
+
+    
   </tr>
   <tr>
     <td align="center"><b>AI Chatbot</b></td>
     <td align="center"><b>Explainability / SHAP</b></td>
   </tr>
   <tr>
-    <td><!-- Add screenshot here --></td>
-    <td><!-- Add screenshot here --></td>
+    <img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 46 53 PM" src="https://github.com/user-attachments/assets/e1ac6b7b-d09a-49ea-90d0-a602ca193ace" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 47 07 PM" src="https://github.com/user-attachments/assets/4cd1561c-557a-49d5-a701-153f0f82a54e" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 47 25 PM" src="https://github.com/user-attachments/assets/96507699-2bb9-4ee8-9d50-b4cbad1b7160" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 48 06 PM" src="https://github.com/user-attachments/assets/9eb31b58-f557-4d92-9a4b-80360f48eed7" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 48 32 PM" src="https://github.com/user-attachments/assets/561a6b09-5875-47d9-ab66-b27feb58ee1b" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 49 22 PM" src="https://github.com/user-attachments/assets/0d7591ff-844f-4da2-a672-90f52812b4ba" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 49 51 PM" src="https://github.com/user-attachments/assets/cba649e5-4ddf-486f-b377-160e21e38c27" />
+<img width="1280" height="800" alt="Screenshot 2026-10-01 at 4 46 37 PM" src="https://github.com/user-attachments/assets/e015fa77-fe96-4dd9-beed-c39dc7980007" />
+
+    
   </tr>
 </table>
 
@@ -255,11 +268,14 @@ The chatbot helps students ask questions about scholarships and their recommenda
 
 **NLP comparison:** BiLSTM, CrossEncoder, and pretrained SBERT were compared for semantic text matching.
 
-<!-- TODO: add the NLP comparison numbers and any NER metrics here if you want them published. -->
+<img width="1004" height="219" alt="Screenshot 2026-10-01 at 4 56 43 PM" src="https://github.com/user-attachments/assets/a408317b-d455-4512-a994-49193d97ffb3" />
+<img width="450" height="343" alt="Screenshot 2026-10-01 at 4 57 00 PM" src="https://github.com/user-attachments/assets/c847a2f4-985c-494b-b1f8-9c21d5edf0d6" />
+<img width="369" height="158" alt="Screenshot 2026-10-01 at 4 55 57 PM" src="https://github.com/user-attachments/assets/0d3b3649-dcc2-4ab4-a773-fc2059b39d31" />
+
 
 ---
 
-## 🚧 Limitations
+##  Limitations
 
 - Datasets and the fine-tuned RoBERTa model are not included in the repository, so the full pipeline cannot be reproduced from a fresh clone without supplying these artifacts locally.
 - Recommendation quality depends on the size and coverage of the interaction and scholarship data.
@@ -268,7 +284,7 @@ The chatbot helps students ask questions about scholarships and their recommenda
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 *These are planned directions, not implemented features.*
 
